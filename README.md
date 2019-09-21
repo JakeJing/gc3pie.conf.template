@@ -17,3 +17,6 @@ This is the template for gc3pie.conf. You can download and replace the automatic
 - keypair_name=yingqigc3key  (private key name, can be found in your computer under the folder .~/ssh/)
 
 - public_key=~/.ssh/yingqigc3key.pem (public key name)
+
+In order to run the script, you should run this:
+> ./grayscaling_parallel.py /home/ubuntu/tutorial_gc3pie/in-data/* -vv -C 2 -r sciencecloud -s pjob
