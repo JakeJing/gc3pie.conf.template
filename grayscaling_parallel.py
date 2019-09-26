@@ -92,7 +92,7 @@ class GRunApplication(Application):
                              stderr = "stderr.txt")
                              
 # notes:
-# 1. **output_dir**: is the directory for saving output for each task. That means each task or job will create its own output directory.
+# 1. **output_dir**: is the directory name for saving output for each task, which will be downloaded from cloud to your own instance. That means each task or job will create its own output directory.
 # 2. **outputs**: should be set as gc3libs.ANY_OUTPUT, so that everything will be automatically saved in the output_dir.
 # 3. **inputs**: can leave empty, so that no input files will be copied to the output_dir. If u want to save anything to the output directory. You can add things here.
 # 4. **arguments**: can be a simple command, or ideally you can add a bash script to run the certain script. It would be more useful.
